@@ -6,7 +6,7 @@ public class JavaCalculatorTest  {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
 
-        // Test addition
+        // Test Of Addition
         int sum = calculator.add(1, 1);
         System.out.println("1 + 1 = " + sum);
 

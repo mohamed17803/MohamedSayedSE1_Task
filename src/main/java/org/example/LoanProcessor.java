@@ -7,7 +7,7 @@ public class LoanProcessor {
         } else if (!isEmployed) {
             return "Rejected: Applicant must be employed";
         } else if (loanAmount > 50000) {
-            return "Rejected: Loan amount too high";
+            return "Rejected: Loan Amount Too High";
         } else {
             return "Approved";
         }

@@ -5,6 +5,7 @@ import org.example.LoanProcessor;
 import org.junit.jupiter.api.Test;
 
 public class LoanProcessorTest {
+    // Tests
     @Test
     public void testLoanApprovalWithGoodCreditScore() {
         LoanProcessor loanProcessor = new LoanProcessor();
